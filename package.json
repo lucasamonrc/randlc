@@ -1,0 +1,21 @@
+{
+  "name": "randlc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:vite": "tsc && vite build",
+    "build:assets": "cp src/manifest.json dist/ && mkdir dist/images && cp -r src/images dist/",
+    "build": "npm run build:vite && npm run build:assets",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.258",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
