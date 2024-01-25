@@ -10,5 +10,6 @@ Random Leetcode is a Google Chrome extension that gives you a random problem to 
 ### Non-functional Requirements
 - [ ] CI/CD (Automatic updates to the Chrome Web Store)
 - [ ] Automated tests
+- [ ] Linting with eslint and prettier
 - [x] Implement data persistence in the browser's local storage
 - [ ] Publish v1 to the Chrome Web Store
